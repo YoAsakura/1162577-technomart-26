@@ -31,10 +31,10 @@
     <ul>
       <li>
         <img src="img/icon-login.svg" width="15" height="15" alt="">
-        <button type="button">Вход</button>
+        <a href="#">Вход</a>
       </li>
       <li>
-        <button type="button">Регистрация</button>
+        <a href="#">Регистрация</a>
       </li>
     </ul>
     <nav>
@@ -192,8 +192,19 @@
       <p>Вы можете забрать товар сами,
         заехав в наш офис:</p>
       <img src="img/map-streat.jpg" width="300" height="161" alt="Большая Конюшенная ул., 19">
-      <button type="button">Заблудились?Напишите нам!</button>
+      <a href="#">Заблудились?Напишите нам!</a>
     </section>
+    <form method="post" action="https://echo.htmlacademy.ru">
+      <label for="user-name">Ваше имя:</label>
+      <input id="user-name" type="text" name="name" placeholder="Имя Фамилия"></input>
+
+      <label for="user-mail">Ваш e-mail::</label>
+      <input id="user-mail" type="text" name="e-mail" placeholder="email@example.com"></input>
+
+      <label for="user-text">Текст письма:</label>
+      <input id="user-text" type="text" name="text" placeholder="В свободной форме"></input>
+      <button type="submit">Отправить</button>
+    </form>
   </main>
   <footer>
     <div>
