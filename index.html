@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
       и инструментов для ремонта
     </h1>
     <img src="img/icon-phone.svg" width="15" height="15" alt="">
-    <a href="tel:+8125550555">+7 (812) 555-05-55</a>
+    <a href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
     <address>г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
     <ul>
       <li>
@@ -194,23 +195,28 @@
       <img src="img/map-streat.jpg" width="300" height="161" alt="Большая Конюшенная ул., 19">
       <a href="#">Заблудились?Напишите нам!</a>
     </section>
-    <form method="post" action="https://echo.htmlacademy.ru">
-      <label for="user-name">Ваше имя:</label>
-      <input id="user-name" type="text" name="name" placeholder="Имя Фамилия"></input>
+    <div class="visually-hidden">
+      <img src="img/pop-map.jpg" width="940" height="446" alt="Большая Конюшенная ул., 19">
+      <button type="button"></button>
+      <form method="post" action="https://echo.htmlacademy.ru">
+        <button type="button"></button>
+        <label for="user-name">Ваше имя:</label>
+        <input id="user-name" type="text" name="name" placeholder="Имя Фамилия"></input>
 
-      <label for="user-mail">Ваш e-mail::</label>
-      <input id="user-mail" type="text" name="e-mail" placeholder="email@example.com"></input>
+        <label for="user-mail">Ваш e-mail::</label>
+        <input id="user-mail" type="text" name="e-mail" placeholder="email@example.com"></input>
 
-      <label for="user-text">Текст письма:</label>
-      <input id="user-text" type="text" name="text" placeholder="В свободной форме"></input>
-      <button type="submit">Отправить</button>
-    </form>
+        <label for="user-text">Текст письма:</label>
+        <input id="user-text" type="text" name="text" placeholder="В свободной форме"></input>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
   </main>
   <footer>
     <div>
       <a href="#">Техномарт</a>
       <address>г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
-      <a href="tel:+8125550555">+7 (812) 555-05-55</a>
+      <a href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
     </div>
     <div>
       <ul>
@@ -247,10 +253,10 @@
         </li>
       </ul>
       <p>Обратная связь:</p>
-      <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      <a href="mailto:mail@htmlacademy.ru" aria-label="Обратная связь">mail@htmlacademy.ru</a>
       </p>
       <p>Разработано-</p>
-      <a href="№">htmlacademy.ru</a>
+      <a href="№" aria-label="Разработано">htmlacademy.ru</a>
     </div>
   </footer>
 </body>
