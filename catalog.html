@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -26,12 +27,12 @@
       и инструментов для ремонта
     </h1>
     <img src="img/icon-phone.svg" width="15" height="15" alt="">
-    <a href="tel:+8125550555">+7 (812) 555-05-55</a>
+    <a href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
     <address>г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
     <ul>
       <li>
         <img src="img/icon-user.svg" width="15" height="15" alt="">
-        <button type="button">Равшан Джамшутович</button></li>
+        <p>Равшан Джамшутович</p>
       <img src="img/icon-logout.svg" width="15" height="15" alt="">
     </ul>
     <ul>
@@ -67,8 +68,6 @@
         <li><a href="">по цене</a></li>
         <li><a href="">по типу</a></li>
         <li><a href="">по функционалу</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
       </ul>
     </div>
     <div>
@@ -101,10 +100,10 @@
         </article>
 
         <ul>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">Следующая</a></li>
+          <li><a href="#" aria-label="Страница 1">1</a></li>
+          <li><a href="#" aria-label="Страница 2">2</a></li>
+          <li><a href="#" aria-label="Страница 3">3</a></li>
+          <li><a href="#" aria-label="Следующая страница">Следующая</a></li>
         </ul>
       </section>
     </div>
@@ -141,13 +140,19 @@
         дрель.
       </p>
     </section>
+    <div class="visually-hidden">
+      <p>Товар добавлен в корзину!</p>
+      <a href="#">Оформить заказ</a>
+      <a href="#">Продолжить покупки</a>
+      <button type="button"></button>
+      </div>
   </main>
   <footer>
     <div>
       <a href="#">Техномарт</a>
       <div>
         <address>г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
-        <a href="tel:+8125550555">+7 (812) 555-05-55</a>
+        <a href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
       </div>
     </div>
     <div>
