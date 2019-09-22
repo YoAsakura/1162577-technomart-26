@@ -1,9 +1,342 @@
-.visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-padding: 0;
-clip: rect(0 0 0 0);
-overflow: hidden;}
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  background-color: #f4f7f9;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/web/cuprum.woff2) format(woff2)
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/web/cuprumbold.woff2) format(woff2)
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/web/cuprumitalic.woff2) format(woff2)
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/web/ptsans.woff2) format(woff2)
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/web/ptsansbold.woff2) format(woff2)
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.headline {
+  font-size: 16px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.telephone {
+  font-size: 21px;
+  color: #ee3643;
+}
+
+.link-entrance {
+  list-style: none;
+}
+
+.item-login {
+  font-size: 21px;
+  color: #000000;
+}
+
+.item-registration {
+  font-size: 21px;
+  color: #000000;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+font-size: 17px;
+}
+
+.signature-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.signature-down {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.signature-yellow {
+  width: 300px;
+  height: 123px;
+  background-color: #ffbf47;
+}
+
+.signature-blue {
+  width: 300px;
+  height: 123px;
+  background-color: #3bbce3;
+}
+
+.signature-pink {
+  width: 300px;
+  height: 123px;
+  background-color: #dc91d8;
+}
+
+.signature-green {
+  width: 300px;
+  height: 123px;
+  background-color: #8ed78f;
+}
+
+.slide-signature {
+  font-size: 18px;
+  white-space: normal;
+}
+
+.text-drill {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.popular-headline {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+  font-weight: 400;
+}
+
+.item-headline {
+  font-family: "PTSans";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.price-discount {
+  font-family: "PTSans";
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.button-catalog {
+  font-size: 14px;
+}
+
+.button-popular {
+  font-size: 14px;
+}
+
+.service-headline {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text-efforts {
+  font-family: "PT Sans";
+}
+
+.button-service {
+  font-size: 21px;
+}
+
+
+.text-delivery {
+  font-family: "PT Sans";
+}
+
+.company-headline {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text-product {
+  font-family: "PT Sans";
+  font-size: 13px;
+}
+
+.item-transport {
+  font-size: 18px;
+  font-style: bold;
+  list-style: none;
+}
+
+.contacts-headline {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.delivery-headline {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.item-up {
+  font-size: 18px;
+  list-style: none;
+}
+
+.item-down {
+  font-size: 18px;
+  list-style: none;
+  color: #ffd180;
+}
+
+.copyright {
+  font-size: 16px
+}
+
+.social-item {
+  list-style: none;
+  width: 42px;
+  height: 42px;
+  background-color: #212a3a;
+  border-radius: 20px;
+}
+
+.button-mail {
+  color: #ffd180;
+}
+
+.button-developed {
+  color: #ffd180;
+}
+
+.button-user {
+font-size: 21px;
+}
+.button-users {
+  list-style: none;
+  text-decoration: underline;
+}
+
+.perforators-headline {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text-sorting {
+  text-transform: uppercase;
+  font-family: "PT Sans";
+}
+
+.sortin-item {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "PT Sans";
+}
+
+.button-prise {
+  color: #ee3643;
+}
+
+.button-type {
+  color: #b6b3ae;
+  border-bottom: dotted #ee3643 1px;
+}
+
+.button-functional {
+  color: #b6b3ae;
+  border-bottom: dotted #ee3643 1px;
+}
+
+.page-item {
+  width: 38px;
+  height: 38px;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  list-style: none;
+}
+.page-item:last-child {
+  width: 140px;
+  height: 38px;
+}
+
+.filter-prise {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.manufacturers-headline {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.manufacturers-item {
+  font-size: 15px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.power-headline {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.power-item {
+  font-size: 15px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.perforator-text {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.perforator-decryption {
+  font-size: 13px;
+  font-family: "PT Sans";
+}
