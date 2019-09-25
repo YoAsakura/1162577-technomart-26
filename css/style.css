@@ -13,43 +13,43 @@ a {
 }
 
 @font-face {
-  font-family: "Cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/web/cuprum.woff2) format(woff2)
+  src: url(../fonts/cuprum.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "Cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/web/cuprumbold.woff2) format(woff2)
+  src: url(../fonts/cuprumbold.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "Cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/web/cuprumitalic.woff2) format(woff2)
+  src: url(../fonts/cuprumitalic.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/web/ptsans.woff2) format(woff2)
+  src: url(../fonts/ptsans.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/web/ptsansbold.woff2) format(woff2)
+  src: url(../fonts/ptsansbold.woff2) format("woff2");
 }
 
 .visually-hidden {
@@ -148,7 +148,7 @@ a {
 }
 
 .item-headline {
-  font-family: "PTSans";
+  font-family: "PTSans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -159,7 +159,7 @@ a {
 }
 
 .price-discount {
-  font-family: "PTSans";
+  font-family: "PTSans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-decoration: line-through;
@@ -180,7 +180,7 @@ a {
 }
 
 .text-efforts {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .button-service {
@@ -189,7 +189,7 @@ a {
 
 
 .text-delivery {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .company-headline {
@@ -199,13 +199,13 @@ a {
 }
 
 .text-product {
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
 }
 
 .item-transport {
   font-size: 18px;
-  font-style: bold;
+  font-weight: 700;
   list-style: none;
 }
 
@@ -269,13 +269,13 @@ a {
 
 .text-sorting {
   text-transform: uppercase;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .sortin-item {
   list-style: none;
   text-transform: uppercase;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .button-prise {
@@ -339,5 +339,5 @@ a {
 
 .perforator-decryption {
   font-size: 13px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
