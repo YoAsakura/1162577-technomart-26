@@ -16,14 +16,19 @@
         <form class="form-search">
           <input class="search-field" type="search" placeholder="Поиск:">
         </form>
-        <a class="button-bookmark" href="#">Закладки</a></li>
-        <a class="button-basket" href="#">Корзина</a></li>
-        <a class="button-checkout" href="#">Оформить заказ</a></li>
+        <ul class="users-panel">
+          <li class="panel-item"><a class="button-panel" href="#">Закладки</a></li>
+          </li>
+          <li class="panel-item"><a class="button-panel" href="#">Корзина</a></li>
+          </li>
+          <li class="panel-item panel-green"><a class="button-panel" href="#">Оформить заказ</a></li>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="header-middle">
       <div class="hedline-box">
-        <p class="headline">
+        <p class="headline-text">
           Интернет-магазин
           строительных материалов
           и инструментов для ремонта
@@ -34,7 +39,6 @@
         <a class="telephone" href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
         <address class="address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
       </div>
-      <div></div>
       <div class="user-box">
         <ul class="user-list">
           <li class="user-item"><a class="item-login" href="#">Войти</a></li>
@@ -65,13 +69,11 @@
         <div class="signature-blue signature-item">
           <p class="signature-text">Инструмент</p>
           <a class="signature-second signature-button" href="#">На все случаи</a>
-
         </div>
 
         <div class="signature-pink signature-item">
           <p class="signature-text">Техника</p>
           <a class="signature-third signature-button" href="#">для стройки</a>
-
         </div>
 
       </div>
@@ -131,8 +133,8 @@
             <h3 class="item-headline">Перфоратор BOSCH BFG 9000</h3>
             <p class="price-discount">32500 Р.</p>
             <div class="prise-wrapper">
-            <p class="price">25500 Р.</p>
-          </div>
+              <p class="price">25500 Р.</p>
+            </div>
             <button class="button-buy visually-hidden" type="button">купить</button>
             <button class="add-bookmarks visually-hidden" type="button">в закладки</button>
           </article>
@@ -193,12 +195,12 @@
     </section>
     <section class="service">
       <div>
-      <h2 class="service-headline">Сервисы</h2>
-      <p class="text-efforts">
-        Хороший интернет-магазин отличается от плохого не только ценами!
-        Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-      </p>
-    </div>
+        <h2 class="service-headline">Сервисы</h2>
+        <p class="text-efforts">
+          Хороший интернет-магазин отличается от плохого не только ценами!
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+        </p>
+      </div>
       <div class="service-wrapper">
         <ul class="service-buttons">
           <li class="button-service"><a href="#">Доставка</a></li>
@@ -282,11 +284,11 @@
   <footer class="footer">
     <div class="footer-up">
       <div class="footer-title">
-      <a class="footer-logo" href="#">Техномарт</a>
-      <address class="footer-address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9
-                                      +7 (812) 555-05-55
-          </address>
-    </div>
+        <a class="footer-logo" href="#">Техномарт</a>
+        <address class="footer-address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9
+          +7 (812) 555-05-55
+        </address>
+      </div>
       <div class="footer-nav">
         <ul class="footer-list">
           <li class="footer-item"><a class="item-up" href="#">Компания</a></li>
@@ -306,36 +308,37 @@
 
 
     <div class="down-wrapper">
-    <div class="footer-down">
-      <p class="copyright">
-        © 2010-2016 Компания «Техномарт»
-        Все права защищены
-      </p>
-      <ul class="social-list">
-        <li class="social-item">
-          <a class="social-vk" href="#"></a>
-          <img src="img/icon-vk.svg" width="15" height="15" alt="">
-        </li>
-        <li class="social-item">
-          <a class="social-fb" href="#"></a>
-          <img src="img/icon-fb.svg" width="15" height="15" alt="">
-        </li>
-        <li class="social-item">
-          <a class="social-insta" href="#"></a>
-          <img src="img/icon-insta.svg" width="15" height="15" alt="">
-        </li>
-      </ul>
-      <div class="feedback-wrapper">
-      <p class="developed-text">Обратная связь:
-      <a class="button-developed" href="mailto:mail@htmlacademy.ru" aria-label="Обратная связь">mail@htmlacademy.ru</a>
-      </p>
+      <div class="footer-down">
+        <p class="copyright">
+          © 2010-2016 Компания «Техномарт»
+          Все права защищены
+        </p>
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="social-vk" href="#"></a>
+            <img src="img/icon-vk.svg" width="15" height="15" alt="">
+          </li>
+          <li class="social-item">
+            <a class="social-fb" href="#"></a>
+            <img src="img/icon-fb.svg" width="15" height="15" alt="">
+          </li>
+          <li class="social-item">
+            <a class="social-insta" href="#"></a>
+            <img src="img/icon-insta.svg" width="15" height="15" alt="">
+          </li>
+        </ul>
+        <div class="feedback-wrapper">
+          <p class="feedback-text">Обратная связь:
+            <a class="button-developed" href="mailto:mail@htmlacademy.ru"
+              aria-label="Обратная связь">mail@htmlacademy.ru</a>
+          </p>
 
-      <p class="developed-text">Разработано-
-      <a class="button-developed" href="№" aria-label="Разработано">htmlacademy.ru</a>
-      </p>
+          <p class="developed-text">Разработано -
+            <a class="button-developed" href="№" aria-label="Разработано">htmlacademy.ru</a>
+          </p>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
   </footer>
 </body>
 
