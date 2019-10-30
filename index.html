@@ -13,8 +13,11 @@
     <div class="header-wrapper">
       <div class="header-box">
         <a href="index.html" class="logo">Техномарт</a>
-        <form class="form-search search-icon">
-          <input class="search-field" type="search" placeholder="Поиск:">
+        <form class="form-search" action="https://echo.htmlacademy.ru" method="GET">
+          <label for="search">
+          <svg class="search-image" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"></path></svg>
+          </label>
+          <input class="search-field" id="search" type="search" name="search" placeholder="Поиск:">
         </form>
         <div class="users-panel">
           <a class="button-panel button-bookmark" href="#">Закладки: 0</a></li>
@@ -35,23 +38,26 @@
         <a class="telephone" href="tel:+8125550555" aria-label="Наш номер">+7 (812) 555-05-55</a>
         <address class="address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
       </div>
-      <div class="user-box">
-        <ul class="user-list">
-          <li class="user-item"><a class="item-login" href="#">Войти</a></li>
-          <li class="user-item"><a class="item-registration" href="#">Регистрация</a></li>
+      <div>
+              <ul class="user-box">
+          <li>
+            <a class="item-login" href="#"> Войти</a>
+          </li>
+          <li><a class="item-registration" href="#">Регистрация</a></li>
         </ul>
+        </div>
       </div>
     </div>
-    <nav class="main-nav">
-      <div class="nav-list">
-        <a class="nav-link" href="index.html">Главная</a></li>
-        <a class="nav-link" href="#">Компания</a></li>
-        <a class="nav-link" href="catalog.html">Каталог</a></li>
-        <a class="nav-link" href="#">Новости</a></li>
-        <a class="nav-link" href="#">Спецпредложения</a></li>
-        <a class="nav-link" href="#">Доставка</a></li>
-        <a class="nav-link" href="#">Контакты</a></li>
-      </div>
+    <nav class="nav-list">
+      <ul>
+        <li><a class="nav-link" href="index.html">Главная</a></li>
+        <li><a class="nav-link" href="#">Компания</a></li>
+        <li><a class="nav-link" href="catalog.html">Каталог</a></li>
+        <li><a class="nav-link" href="#">Новости</a></li>
+        <li><a class="nav-link" href="#">Спецпредложения</a></li>
+        <li><a class="nav-link" href="#">Доставка</a></li>
+        <li><a class="nav-link" href="#">Контакты</a></li>
+      </ul>
     </nav>
   </header>
   <main class="main">
@@ -178,9 +184,11 @@
     </section>
 
     <section class="popular-manufacturers">
-      <div class="headline-box">
-        <h2 class="manufacturers-headline">Популярные производители</h2>
-        <a class="button-manufacturers" href="#">Все производители</a>
+      <div class="headline-wrapper">
+        <div class="headline-box">
+          <h2 class="manufacturers-headline">Популярные производители</h2>
+          <a class="button-manufacturers" href="#">Все производители</a>
+        </div>
       </div>
       <div class="manufacturers-wrapper">
         <a class="manufacturers-item img-bosch" href="#">
@@ -194,49 +202,49 @@
       </div>
     </section>
     <section class="service">
-      <div>
+      <div class="background-wrapper">
         <h2 class="service-headline">Сервисы</h2>
         <p class="text-efforts">
           Хороший интернет-магазин отличается от плохого не только ценами!
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
-      </div>
-      <div class="service-wrapper">
-        <ul class="service-buttons">
-          <li><a class="button-service" href="#">Доставка</a></li>
-          <li><a class="button-service" href="#">Гарантия</a></li>
-          <li><a class="button-service" href="#">Кредит</a></li>
-        </ul>
-        <ul class="service-list">
-          <li class="service-text service-png">
-            <h3 class="delivery-headline">Доставка</h3>
-            <p class="text-delivery">
-              Мы с удовольствием доставим ваш товар прямо
-              к вашему подъезду совершенно бесплатно!
-              ведь мы неплохо заработем,
-              поднимая&nbsp;его&nbsp;на&nbsp;ваш этаж!
-            </p>
-          </li>
+        <div class="service-wrapper">
+          <ul class="service-buttons">
+            <li><a class="button-service" href="#">Доставка</a></li>
+            <li><a class="button-service" href="#">Гарантия</a></li>
+            <li><a class="button-service" href="#">Кредит</a></li>
+          </ul>
+          <ul class="service-list">
+            <li class="service-text service-png">
+              <h3 class="delivery-headline">Доставка</h3>
+              <p class="text-delivery">
+                Мы с удовольствием доставим ваш товар прямо
+                к вашему подъезду совершенно бесплатно!
+                ведь мы неплохо заработем,
+                поднимая&nbsp;его&nbsp;на&nbsp;ваш этаж!
+              </p>
+            </li>
 
-          <li class="service-text visually-hidden">
-            <h3 class="delivery-headline">Гарантия</h3>
-            <p class="text-delivery">
-              Если купленный у нас товар поломается или заискрит,
-              а также в случае пожара, спровоцированного его возгоранием,
-              вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-              сгоревший товар на новый.
-              Дом уж восстановите как-нибудь сами.
-            </p>
-          </li>
+            <li class="service-text visually-hidden">
+              <h3 class="delivery-headline">Гарантия</h3>
+              <p class="text-delivery">
+                Если купленный у нас товар поломается или заискрит,
+                а также в случае пожара, спровоцированного его возгоранием,
+                вы всегда можете быть уверены в нашей гарантии. Мы обменяем
+                сгоревший товар на новый.
+                Дом уж восстановите как-нибудь сами.
+              </p>
+            </li>
 
-          <li class="service-text visually-hidden">
-            <h3 class="delivery-headline">Кредит</h3>
-            <p class="text-delivery">
-              Залезть в долговую яму стало проще!
-              Кредитные консультанты придут вам на помощь.
-            </p>
-          </li>
-        </ul>
+            <li class="service-text visually-hidden">
+              <h3 class="delivery-headline">Кредит</h3>
+              <p class="text-delivery">
+                Залезть в долговую яму стало проще!
+                Кредитные консультанты придут вам на помощь.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <div class="About-flex">
