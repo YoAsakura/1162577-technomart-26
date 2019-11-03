@@ -13,16 +13,20 @@
     <div class="header-wrapper">
       <div class="header-box">
         <a href="index.html" class="logo">Техномарт</a>
-        <form class="form-search" action="https://echo.htmlacademy.ru" method="GET">
+        <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
           <label for="search">
-          <svg class="search-image" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"></path></svg>
+            <svg class="search-image" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+              <path
+                d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z">
+              </path>
+            </svg>
           </label>
           <input class="search-field" id="search" type="search" name="search" placeholder="Поиск:">
         </form>
         <div class="users-panel">
-          <a class="button-panel button-bookmark" href="#">Закладки: 0</a></li>
-          <a class="button-panel button-backet" href="#">Корзина: 0</a></li>
-          <a class="button-panel panel-green" href="#">Оформить заказ</a></li>
+          <a class="button-panel button-bookmark" href="#">Закладки: 0</a>
+          <a class="button-panel button-backet" href="#">Корзина: 0</a>
+          <a class="button-panel panel-green" href="#">Оформить заказ</a>
         </div>
       </div>
     </div>
@@ -39,13 +43,12 @@
         <address class="address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
       </div>
       <div>
-              <ul class="user-box">
+        <ul class="user-box">
           <li>
             <a class="item-login" href="#"> Войти</a>
           </li>
           <li><a class="item-registration" href="#">Регистрация</a></li>
         </ul>
-        </div>
       </div>
     </div>
     <nav class="nav-list">
@@ -80,34 +83,44 @@
 
       </div>
       <div class="benefits-down">
-        <ul class="slider">
-          <li>
-            <img class="slide-img" src="img/work-man.jpg" width="620" height="266" alt="">
-            <div>
-              <a class="slider-button" href="#">Открыть каталог</a>
+
+
+
+        <div class="slider">
+            <input type="radio" name="radio-slider" id="radio-left" checked>
+            <input type="radio" name="radio-slider" id="radio-right">
+            <div class="arrow-radio">
+              <label for="radio-left" class="arrow-left"></label>
+              <label for="radio-right" class="arrow-right"></label>
+            </div>
+            <div class="slide-control">
+              <label for="radio-left" class="toggle"></label>
+              <label for="radio-right" class="toggle"></label>
+            </div>
+          <div class="swiching">
+            <div class="slide-first">
               <div class="slider-text">
                 <h4>
                   Дрели
                 </h4>
-                <p>Соседями на радость!</p>
+                <p>Соседям на радость!</p>
               </div>
+              <a class="slider-button" href="catalog.html">Открыть каталог</a>
             </div>
-          </li>
-          <li class="visually-hidden">
-            <img class="slide-img" src="img/work-man2.jpg" width="620" height="266" alt="">
-            <div class="slider-button">
-              <a href="#">Открыть каталог</a>
+
+            <div class="slide-second">
               <div class="slider-text">
                 <h4>
                   Перфораторы
                 </h4>
                 <p>Настоящие мужские игрушки!</p>
               </div>
+              <a class="slider-button" href="#">Открыть каталог</a>
             </div>
-          </li>
-        </ul>
-        <div>
+          </div>
+        </div>
 
+        <div>
           <div class="signature-green signature-item">
             <p class="signature-text">Скидки 50%</p>
             <a class="signature-fourth signature-button" href="#">На 350 товаров</a>
@@ -191,62 +204,57 @@
         </div>
       </div>
       <div class="manufacturers-wrapper">
-        <a class="manufacturers-item img-bosch" href="#">
-          <a class="manufacturers-item img-makita" href="#">
-            <a class="manufacturers-item img-dewalt" href="#">
-              <a class="manufacturers-item img-interscall" href="#">
-                <a class="manufacturers-item img-hitachi" href="#">
-                  <a class="manufacturers-item img-lg" href="#">
-                    <a class="manufacturers-item img-aeg" href="#">
-                      <a class="manufacturers-item img-metabo" href="#"></a>
+        <a class="manufacturers-item img-bosch" href="#"></a>
+        <a class="manufacturers-item img-makita" href="#"></a>
+        <a class="manufacturers-item img-dewalt" href="#"></a>
+        <a class="manufacturers-item img-interscall" href="#"></a>
+        <a class="manufacturers-item img-hitachi" href="#"></a>
+        <a class="manufacturers-item img-lg" href="#"></a>
+        <a class="manufacturers-item img-aeg" href="#"></a>
+        <a class="manufacturers-item img-metabo" href="#"></a>
       </div>
     </section>
-    <section class="service">
-      <div class="background-wrapper">
-        <h2 class="service-headline">Сервисы</h2>
-        <p class="text-efforts">
-          Хороший интернет-магазин отличается от плохого не только ценами!
-          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-        </p>
-        <div class="service-wrapper">
-          <ul class="service-buttons">
-            <li><a class="button-service" href="#">Доставка</a></li>
-            <li><a class="button-service" href="#">Гарантия</a></li>
-            <li><a class="button-service" href="#">Кредит</a></li>
-          </ul>
-          <ul class="service-list">
-            <li class="service-text service-png">
-              <h3 class="delivery-headline">Доставка</h3>
-              <p class="text-delivery">
-                Мы с удовольствием доставим ваш товар прямо
-                к вашему подъезду совершенно бесплатно!
-                ведь мы неплохо заработем,
-                поднимая&nbsp;его&nbsp;на&nbsp;ваш этаж!
-              </p>
-            </li>
-
-            <li class="service-text visually-hidden">
-              <h3 class="delivery-headline">Гарантия</h3>
-              <p class="text-delivery">
-                Если купленный у нас товар поломается или заискрит,
-                а также в случае пожара, спровоцированного его возгоранием,
-                вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-                сгоревший товар на новый.
-                Дом уж восстановите как-нибудь сами.
-              </p>
-            </li>
-
-            <li class="service-text visually-hidden">
-              <h3 class="delivery-headline">Кредит</h3>
-              <p class="text-delivery">
-                Залезть в долговую яму стало проще!
-                Кредитные консультанты придут вам на помощь.
-              </p>
-            </li>
-          </ul>
+    <div class="service">
+      <div class="service-wrapper">
+        <h2>сервисы</h2>
+        <p class="about-service">Хороший интернет-магазин отличается от плохого не только ценами!
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
+        <div class="service-information">
+          <div class="service-navigation">
+            <input type="radio" id="button-1" name="navigation" checked>
+            <input type="radio" id="button-2" name="navigation">
+            <input type="radio" id="button-3" name="navigation">
+            <label for="button-1">доставка</label>
+            <label for="button-2">гарантия</label>
+            <label for="button-3">кредит</label>
+            <div class="slider-service">
+              <section class="service-content">
+                <h3>доставка</h3>
+                <p class="delivery-slide">Мы с удовольствием доставим ваш товар прямо
+                  к вашему подъезду совершенно бесплатно!
+                  Ведь мы неплохо заработаем,
+                  поднимая&nbsp;его&nbsp;на&nbsp;ваш&nbsp;этаж!</p>
+              </section>
+              <section class="service-content">
+                <h3>гарантия</h3>
+                <p class="guarantee">
+                  Если&nbsp;купленный&nbsp;у&nbsp;нас&nbsp;товар&nbsp;поломается&nbsp;или&nbsp;заискрит,
+                  а&nbsp;также&nbsp;в&nbsp;случае&nbsp;пожара,&nbsp;спровоцированного&nbsp;его&nbsp;возгаранием,
+                  вы&nbsp;всегда&nbsp;можете&nbsp;быть&nbsp;уверены&nbsp;в&nbsp;нашей&nbsp;гарантии.&nbsp;Мы&nbsp;обменяем
+                  сгоревший товар на новый.
+                  Дом&nbsp;уж&nbsp;восстановите&nbsp;как-нибудь&nbsp;сами.</p>
+              </section>
+              <section class="service-content">
+                <h3>кредит</h3>
+                <p class="credit">Залезть в долговую яму стало проще!
+                  Кредитные&nbsp;консультанты&nbsp;придут вам на помощь.</p>
+                <a class="service-button" href="#">отправить заявку</a>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
     <div class="About-flex">
       <section class="About-us">
         <h2 class="company-headline">Компания «Техномарт» </h2>
@@ -268,26 +276,37 @@
         <h2 class="contacts-headline">Контакты</h2>
         <p class="text-office">Вы можете забрать товар сами,
           заехав в наш офис:</p>
-        <img class="streat-img" src="img/map-streat.jpg" width="300" height="158" alt="Большая Конюшенная ул., 19">
-        <a class="button-lost" href="#">Заблудились?Напишите нам!</a>
+        <a class="streat-img" href="#"><img src="img/map-streat.jpg" width="300" height="158"
+            alt="Большая Конюшенная ул., 19"></a>
+        <a class="button-lost btn-js" href="#">Заблудились? Напишите нам!</a>
       </section>
     </div>
-    <div class="visually-hidden">
-      <img src="img/pop-map.jpg" width="940" height="446" alt="Большая Конюшенная ул., 19">
-      <button type="button"></button>
-      <form method="post" action="https://echo.htmlacademy.ru">
-        <button type="button"></button>
-        <label for="user-name">Ваше имя:</label>
-        <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
-
-        <label for="user-mail">Ваш e-mail::</label>
-        <input id="user-mail" type="text" name="e-mail" placeholder="email@example.com">
-
-        <label for="user-text">Текст письма:</label>
-        <input id="user-text" type="text" name="text" placeholder="В свободной форме">
-        <button type="submit">Отправить</button>
-      </form>
+    <div class="map-open">
+      <div class="close"></div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412367!2d30.320894615677194!3d59.93879686904843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1572619371740!5m2!1sru!2sru"
+        width="960" height="446" style="border:0;" allowfullscreen=""></iframe>
     </div>
+    <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
+      <div class="close"></div>
+      <div class="answer">
+        <div class="top-conteiner">
+          <div class="write">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+          </div>
+          <div class="write">
+            <label for="mail">Ваш e-mail:</label>
+            <input type="text" id="mail" name="mail" placeholder="email@example.com">
+          </div>
+        </div>
+        <label for="text-letter">Текст письма:</label>
+        <textarea class="letter" id="text-letter" name="letter" placeholder="В свободной форме"></textarea>
+      </div>
+      <div class="send">
+        <button class="button-popup" type="submit">Отправить</button>
+      </div>
+    </form>
   </main>
   <footer class="footer">
     <div class="footer-up">
@@ -339,12 +358,16 @@
           </p>
 
           <p class="developed-text">Разработано -
-            <a class="button-developed" href="№" aria-label="Разработано">htmlacademy.ru</a>
+            <a class="button-developed" href="https://htmlacademy.ru/intensive/htmlcss"
+              aria-label="Разработано">htmlacademy.ru</a>
           </p>
         </div>
       </div>
     </div>
   </footer>
+  <script src="js/popup.js"></script>
+  <script src="js/mapframe.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 
 </html>
