@@ -25,5 +25,5 @@ buylink.forEach(element => {
   element.addEventListener("click", function (event) {
     event.preventDefault();
     buypopup.classList.add("content-show");
-})
+  })
 });

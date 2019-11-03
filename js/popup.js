@@ -28,8 +28,7 @@ window.addEventListener("keydown", function (event) {
 
 form.addEventListener("submit", function (event) {
   if (!myname.value || !myemail.value || !letter.value) {
-  event.preventDefault();
-  console.log("Нужно ввести логин и пароль");
+    event.preventDefault();
+    console.log("Нужно ввести логин и пароль");
   }
-  });
-
+});

@@ -467,29 +467,6 @@ img {
   color: #ffffff;
 }
 
-.signature-first {
-  background-color: #dda028;
-}
-
-.signature-second {
-  background-color: #429dc7;
-}
-
-.signature-third {
-  background-color: #b76dbc;
-}
-
-.signature-fourth {
-  background-color: #77bc6d;
-}
-
-.signature-fifth {
-  background-color: #dda028;
-}
-
-
-
-
 .signature-item {
   margin-left: 20px;
   padding: 25px 43px 22px 23px;
@@ -926,12 +903,12 @@ img {
 
 .perforators-headline {
   font-size: 30px;
-    line-height: 30px;
-    padding: 30px 28px 30px;
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-    background-color: #f2f6f8;
+  line-height: 30px;
+  padding: 30px 28px 30px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #f2f6f8;
 }
 
 .perforators-wrapper {
@@ -951,17 +928,17 @@ img {
 }
 
 .filter-list {
-    width: 220px;
-    display: flex;
-    align-items: center;
-    height: 38px;
-    margin: 19px 0 10px 0;
-    background-color: #f7f3ec;
-    text-transform: uppercase;
-    font-family: "PT Sans","Arial",sans-serif;
-    font-weight: 400;
-    color: #000000;
-    padding-left: 19px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  height: 38px;
+  margin: 19px 0 10px 0;
+  background-color: #f7f3ec;
+  text-transform: uppercase;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 19px;
 }
 
 .assortment {
@@ -1427,7 +1404,7 @@ input[type="radio"] {
 }
 
 .button-buy:hover::before {
- opacity: 1;
+  opacity: 1;
 }
 
 .button-buy:active {
@@ -1435,15 +1412,15 @@ input[type="radio"] {
 }
 
 .button-buy::before {
-content: "";
-position: absolute;
-display: block;
-left: 15px;
-top: 13px;
-width: 15px;
-height: 15px;
-background: url("../img/icon-cart.svg") no-repeat center;
-opacity: 0.3;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 15px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  background: url("../img/icon-cart.svg") no-repeat center;
+  opacity: 0.3;
 }
 
 
@@ -1860,7 +1837,7 @@ opacity: 0.3;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   text-overflow: clip;
-  width: 450px;
+  width: 444px;
   margin: 0;
   padding-bottom: 20px;
 }
@@ -2066,7 +2043,7 @@ opacity: 0.3;
   margin: 19px 0;
   background-color: #f7f3ec;
   text-transform: uppercase;
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   color: #000000;
 }
@@ -2200,7 +2177,7 @@ opacity: 0.3;
 }
 
 .cost {
-margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .cost h3 {
@@ -2559,7 +2536,7 @@ margin-bottom: 25px;
 }
 
 
- .slide-first {
+.slide-first {
   width: 620px;
   height: 265px;
   display: none;
@@ -2597,12 +2574,12 @@ margin-bottom: 25px;
   background: #ee3643;
 }
 
-#radio-left:checked ~.swiching .slide-first {
+#radio-left:checked~.swiching .slide-first {
   display: block;
   background: url("../img/work-man.jpg")
 }
 
-#radio-right:checked ~.swiching .slide-second {
+#radio-right:checked~.swiching .slide-second {
   display: block;
   background: url("../img/work-man2.jpg")
 }
