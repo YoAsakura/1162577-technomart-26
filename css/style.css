@@ -990,20 +990,10 @@ html {
 }
 
 .filter-checkbox {
-  margin: 17px 0 7px 0;
+  border: none;
+  margin: 17px 0 0 0;
   padding: 0;
   width: 220px;
-  border: none;
-}
-
-.strip {
-  width: 220px;
-  height: 1px;
-  background-color: #e5e5e5;
-}
-
-input[type="checkbox"] {
-  display: none;
 }
 
 .select-box input[type="radio"]+label,
@@ -1029,6 +1019,13 @@ input[type="checkbox"]+label {
   border-radius: 2px;
 }
 
+.checkbox input[type="checkbox"]:focus+label {
+  outline: auto 1px #a4c6fb;
+}
+
+.checkbox input[type="checkbox"]+label:before {
+  border-radius: 5px;
+}
 
 .checkbox input[type="checkbox"]+label:before {
   border-radius: 5px;
@@ -1060,6 +1057,10 @@ input[type="checkbox"]+label {
   border-radius: 50%;
 }
 
+.batter-selector input[type="radio"]:focus+label {
+  outline: auto 1px #a4c6fb;
+}
+
 .batter-selector input[type="radio"]:checked+label:after {
   content: "";
   position: absolute;
@@ -1078,10 +1079,6 @@ input[type="checkbox"]+label {
   padding-top: 13px;
   margin-bottom: 59px;
   font-size: 14px;
-}
-
-input[type="radio"] {
-  display: none;
 }
 
 .order-list {
@@ -2329,11 +2326,14 @@ input[type="radio"] {
 
 .filter-radio {
   border: none;
-  margin: 17px 0 25px 0;
+  margin: 7px 0 25px 0;
   padding: 0;
 }
 
 .filter-radio legend {
+  border-top: 1px solid #e5e5e5;
+  width: 220px;
+  padding-top: 15px;
   font-size: 17px;
   line-height: 30px;
   text-transform: uppercase;
@@ -2351,6 +2351,9 @@ input[type="radio"] {
 }
 
 .filter-checkbox legend {
+  border-top: 1px solid #e5e5e5;
+  width: 220px;
+  padding-top: 15px;
   font-size: 17px;
   line-height: 30px;
   text-transform: uppercase;
@@ -2749,4 +2752,15 @@ input[type="radio"] {
 
 .add-bookmarks:focus actions {
   display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
