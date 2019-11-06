@@ -1206,7 +1206,7 @@ input[type="radio"] {
   width: 322px;
 }
 
-.footer-telephone{
+.footer-telephone {
   font-size: 18px;
   line-height: 24px;
 }
@@ -1398,12 +1398,12 @@ input[type="radio"] {
 }
 
 .arcticle:focus-within .actions {
- display: block;
+  display: block;
 }
 
 .arcticle:focus-within img {
   display: none;
- }
+}
 
 
 
@@ -2386,7 +2386,6 @@ input[type="radio"] {
   top: 7px;
   right: 22px;
   cursor: pointer
-
 }
 
 .answer {
@@ -2565,8 +2564,8 @@ input[type="radio"] {
   z-index: 2;
   transform: translate(-50%, -50%);
 }
-@keyframes
- bounce {
+
+@keyframes bounce {
   0% {
     transform: translate(-50%, -100%)
   }
@@ -2705,6 +2704,7 @@ input[type="radio"] {
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: translate(-50%, -50%);
