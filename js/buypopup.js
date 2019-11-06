@@ -1,9 +1,9 @@
 var buylink = document.querySelectorAll(".button-buy");
 var buypopup = document.querySelector(".modal-buy");
-var close = buypopup.querySelector(".close");
+var buyclose = buypopup.querySelector(".buy-close");
 var buttoncontinue = buypopup.querySelector(".button-continue");
 
-close.addEventListener("click", function (event) {
+buyclose.addEventListener("click", function (event) {
   event.preventDefault();
   buypopup.classList.remove("content-show")
 });
