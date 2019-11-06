@@ -1773,6 +1773,18 @@ input[type="checkbox"]+label {
   display: none;
 }
 
+.service-container input[type="radio"]:focus+.service-navigation label {
+  outline: auto 1px #a4c6fb;
+}
+
+.slider input[type="radio"]:focus+.arrow-radio label {
+  outline: auto 1px #a4c6fb;
+}
+
+.slider input[type="radio"]:focus+.slide-control label {
+  outline: auto 1px #a4c6fb;
+}
+
 #button-1:checked~.service-navigation label[for=button-1],
 #button-2:checked~.service-navigation label[for=button-2],
 #button-3:checked~.service-navigation label[for=button-3] {

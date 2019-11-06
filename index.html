@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="telephone=no" />
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
   <link rel="stylesheet" href="css/normalize.css">
@@ -89,15 +89,15 @@
 
 
         <div class="slider">
-          <input type="radio" name="radio-slider" id="radio-left" checked>
-          <input type="radio" name="radio-slider" id="radio-right">
+          <input class="visually-hidden" type="radio" name="radio-slider" id="radio-left" checked>
+          <input class="visually-hidden" type="radio" name="radio-slider" id="radio-right">
           <div class="arrow-radio">
-            <label for="radio-left" class="arrow-left" tabindex="0" aria-label="Предыдущий слайд"></label>
-            <label for="radio-right" class="arrow-right" tabindex="0" aria-label="Следующий слайд"></label>
+            <label for="radio-left" class="arrow-left" aria-label="Предыдущий слайд"></label>
+            <label for="radio-right" class="arrow-right" aria-label="Следующий слайд"></label>
           </div>
           <div class="slide-control">
-            <label for="radio-left" class="toggle" tabindex="0" aria-label="Перый слайд"></label>
-            <label for="radio-right" class="toggle" tabindex="0" aria-label="Второй слайд"></label>
+            <label for="radio-left" class="toggle" aria-label="Перый слайд"></label>
+            <label for="radio-right" class="toggle" aria-label="Второй слайд"></label>
           </div>
           <div class="swiching">
             <div class="slide-first">
@@ -226,9 +226,9 @@
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
         <div class="service-information">
           <div class="service-container">
-            <input type="radio" id="button-1" name="navigation" checked>
-            <input type="radio" id="button-2" name="navigation">
-            <input type="radio" id="button-3" name="navigation">
+            <input class="visually-hidden" type="radio" id="button-1" name="navigation" checked>
+            <input class="visually-hidden" type="radio" id="button-2" name="navigation">
+            <input class="visually-hidden" type="radio" id="button-3" name="navigation">
             <div class="service-navigation">
               <label for="button-1">доставка</label>
               <label for="button-2">гарантия</label>
