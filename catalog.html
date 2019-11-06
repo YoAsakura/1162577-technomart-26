@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+  <meta name="format-detection" content="telephone=no"/>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
   <link rel="stylesheet" href="css/normalize.css">
@@ -104,34 +105,32 @@
               </label>
             </div>
           </fieldset>
-          <div class="strip"></div>
           <fieldset class="filter-checkbox">
             <legend>Производители:</legend>
             <div class="checkbox">
-              <input type="checkbox" id="bosch" name="bosch" checked>
-              <label for="bosch" tabindex="0">bosch</label>
+              <input class="visually-hidden" type="checkbox" id="bosch" name="bosch" checked>
+              <label for="bosch">bosch</label>
 
-              <input type="checkbox" id="interskol" name="interskol">
+              <input class="visually-hidden" type="checkbox" id="interskol" name="interskol">
               <label for="interskol">интерскол</label>
 
-              <input type="checkbox" id="makita" name="makita" checked>
+              <input class="visually-hidden" type="checkbox" id="makita" name="makita" checked>
               <label for="makita">makita</label>
 
-              <input type="checkbox" id="dewalt" name="dewalt">
+              <input class="visually-hidden" type="checkbox" id="dewalt" name="dewalt">
               <label for="dewalt">dewalt</label>
 
-              <input type="checkbox" id="hitachi" name="hitachi">
+              <input class="visually-hidden" type="checkbox" id="hitachi" name="hitachi">
               <label for="hitachi">hitachi</label>
             </div>
           </fieldset>
-          <div class="strip"></div>
           <fieldset class="filter-radio">
             <legend>Питание:</legend>
             <div class="batter-selector">
-              <input type="radio" id="adaptive" name="batter" value="Аккумуляторные" checked>
+              <input class="visually-hidden" type="radio" id="adaptive" name="batter" value="Аккумуляторные" checked>
               <label for="adaptive">аккумуляторные</label>
 
-              <input type="radio" id="fixed" name="batter" value="Сетевые">
+              <input class="visually-hidden" type="radio" id="fixed" name="batter" value="Сетевые">
               <label for="fixed">сетевые</label>
             </div>
             <button class="button-filter" type="submit">показать</button>
@@ -310,9 +309,8 @@
     <div class="footer-up">
       <div class="footer-title">
         <a class="footer-logo" href="#">Техномарт</a>
-        <address class="footer-address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9
-          +7 (812) 555-05-55
-        </address>
+        <address class="footer-address">г. Санкт-Петербург. ул. Б. Конюшечная, д. 19/9</address>
+        <a class="footer-telephone" href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
       </div>
       <div class="footer-nav">
         <ul class="footer-list">
@@ -356,7 +354,8 @@
           </p>
 
           <p class="developed-text">Разработано -
-            <a class="button-developed" href="№" aria-label="Разработано">htmlacademy.ru</a>
+            <a class="button-developed" href="https://htmlacademy.ru/intensive/htmlcss"
+              aria-label="Разработано">htmlacademy.ru</a>
           </p>
         </div>
       </div>
