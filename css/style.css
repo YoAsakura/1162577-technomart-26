@@ -2633,7 +2633,7 @@ input[type="radio"] {
   width: 22px;
   height: 40px;
   font-size: 0;
-  background: url(/img/icon-left.png) no-repeat 50% 50%;
+  background: url("../img/icon-left.png") no-repeat 50% 50%;
   cursor: pointer;
   z-index: 2;
 }
@@ -2645,7 +2645,7 @@ input[type="radio"] {
   width: 22px;
   height: 40px;
   font-size: 0;
-  background: url(/img/icon-right.png) no-repeat 50% 50%;
+  background: url("../img/icon-right.png") no-repeat 50% 50%;
   cursor: pointer;
   z-index: 2;
 }
